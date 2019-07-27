@@ -1,0 +1,18 @@
+[[social_icons]]
+id = "gitlab"
+url = "https://gitlab.com/%s"
+title = "GitLab"
+icon = "fab fa-gitlab"
+
+[[social_icons]]
+id = "launchpad"
+url = "https://launchpad.net/%s"
+title = "Launchpad"
+icon = "fas fa-bug"
+# Launchpad logo not really in Font Awesome collection
+
+[[social_icons]]
+id = "wikipedia"
+url = "https://en.wikipedia.org/wiki/%s"
+title = "Wikipedia"
+icon = "fab fa-wikipedia-w"
