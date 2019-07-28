@@ -16,6 +16,5 @@ pages:
   artifacts:
     paths:
     - public
-#  only:
-#  - master
-# ottok does not have permission to push on master, so build from other branch name..
+  only:
+  - master
