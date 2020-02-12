@@ -1,4 +1,4 @@
-baseurl = "https://apparmor.gitlab.io/apparmor.net/"
+baseurl = "http://apparmor.net/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
