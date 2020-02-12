@@ -9,7 +9,7 @@
         {{ end }}
 
         <div class="posts-list">
-          {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
+          {{ $pag := .Paginate (where .Data.Pages "Type" "news") }}
           {{ range $pag.Pages }}
             <article class="post-preview">
               <a href="{{ .Permalink }}">
@@ -25,7 +25,7 @@
               <div class="post-entry">
                 {{ if .Truncated }}
                   {{ .Summary }}
-                  <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a>
+                  <a href="{{ .Permalink }}" class="post-read-more">{{ i18n "readMore" }} &raquo;</a>
                 {{ else }}
                   {{ .Content }}
                 {{ end }}
@@ -60,4 +60,3 @@
     </div>
   </div>
 {{ end }}
-

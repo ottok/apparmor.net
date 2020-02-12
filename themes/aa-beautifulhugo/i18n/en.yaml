@@ -1,6 +1,6 @@
 # Content
 - id: dateFormat
-  translation: "August 13, 2019"
+  translation: "January 02, 2006"
 - id: postedOnDate
   translation: "Posted on {{ .Count }}"
 - id: translationsLabel

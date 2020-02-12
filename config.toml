@@ -1,4 +1,4 @@
-baseurl = "https://apparmor.gitlab.io/apparmor.net/"
+baseurl = "http://apparmor.net/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
@@ -27,14 +27,8 @@ pygmentCodeFences = true
 
 [[menu.main]]
     name = "News"
-    url = ""
+    url = "/news/"
     weight = 1
-
-[[menu.main]]
-    name = "Twitter"
-    pre = "<i class='fa fa-twitter' aria-hidden='true'></i>"
-    url = "https://twitter.com/ApparmorProject"
-    weight = 3
 
 [[menu.main]]
     name = "Wiki"
@@ -42,6 +36,17 @@ pygmentCodeFences = true
     weight = 3
 
 [[menu.main]]
+    name = "Documentation"
+    url = "https://gitlab.com/apparmor/apparmor/wikis/Documentation"
+    weight = 3
+
+[[menu.main]]
     name = "Development"
     url = "https://gitlab.com/apparmor/"
     weight = 3
+
+[[menu.main]]
+    name = "Twitter"
+    pre = "<i class='fa fa-twitter' aria-hidden='true'></i>"
+    url = "https://twitter.com/ApparmorProject"
+    weight = 4
