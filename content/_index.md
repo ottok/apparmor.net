@@ -12,10 +12,10 @@ AppArmor supplements the traditional Unix discretionary access control (DAC) mod
 
 Many Linux distributions (e.g. Debian, Ubuntu, OpenSUSE) ship with AppArmor.
 
-Simply run `apparmor_status` to see if your Linux distribution already has AppArmor integrated:
+Simply run `aa-status` to see if your Linux distribution already has AppArmor integrated:
 
 ```
-$ apparmor_status
+$ aa-status
 apparmor module is loaded.
 ```
 
