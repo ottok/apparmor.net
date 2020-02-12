@@ -27,7 +27,7 @@ pygmentCodeFences = true
 
 [[menu.main]]
     name = "News"
-    url = ""
+    url = "/news/"
     weight = 1
 
 [[menu.main]]
