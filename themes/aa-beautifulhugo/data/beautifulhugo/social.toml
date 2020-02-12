@@ -16,3 +16,9 @@ id = "wikipedia"
 url = "https://en.wikipedia.org/wiki/%s"
 title = "Wikipedia"
 icon = "fab fa-wikipedia-w"
+
+[[social_icons]]
+id = "twitter"
+url = "https://twitter.com/%s"
+title = "Twitter"
+icon = "fab fa-twitter"

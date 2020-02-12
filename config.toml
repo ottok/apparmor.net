@@ -31,6 +31,12 @@ pygmentCodeFences = true
     weight = 1
 
 [[menu.main]]
+    name = "Twitter"
+    pre = "<i class='fa fa-twitter' aria-hidden='true'></i>"
+    url = "https://twitter.com/ApparmorProject"
+    weight = 3
+
+[[menu.main]]
     name = "Wiki"
     url = "https://gitlab.com/apparmor/apparmor/wikis/home"
     weight = 3
