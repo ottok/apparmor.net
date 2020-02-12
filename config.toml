@@ -31,17 +31,22 @@ pygmentCodeFences = true
     weight = 1
 
 [[menu.main]]
-    name = "Twitter"
-    pre = "<i class='fa fa-twitter' aria-hidden='true'></i>"
-    url = "https://twitter.com/ApparmorProject"
+    name = "Wiki"
+    url = "https://gitlab.com/apparmor/apparmor/wikis/home"
     weight = 3
 
 [[menu.main]]
-    name = "Wiki"
-    url = "https://gitlab.com/apparmor/apparmor/wikis/home"
+    name = "Documentation"
+    url = "https://gitlab.com/apparmor/apparmor/wikis/Documentation"
     weight = 3
 
 [[menu.main]]
     name = "Development"
     url = "https://gitlab.com/apparmor/"
     weight = 3
+
+[[menu.main]]
+    name = "Twitter"
+    pre = "<i class='fa fa-twitter' aria-hidden='true'></i>"
+    url = "https://twitter.com/ApparmorProject"
+    weight = 4
