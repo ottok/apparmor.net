@@ -14,10 +14,10 @@ supported by Canonical since 2009.
 
 Many Linux distributions (e.g. Debian, Ubuntu, OpenSUSE) ship with AppArmor.
 
-Simply run `apparmor_status` to see if your Linux distribution already has
+Simply run `aa-status` to see if your Linux distribution already has
 AppArmor integrated:
 
-    $ apparmor_status
+    $ aa-status
     apparmor module is loaded.
 
 Since it is a kernel module it is usually not something users install
