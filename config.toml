@@ -1,4 +1,4 @@
-baseurl = "https://www.apparmor.net/"
+baseurl = "https://apparmor.net/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
