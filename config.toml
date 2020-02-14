@@ -21,6 +21,7 @@ pygmentCodeFences = true
   comments = true
 
 [Author]
+  twitter = "ApparmorProject"
   gitlab = "apparmor"
   launchpad = "apparmor"
   wikipedia = "apparmor"
@@ -44,9 +45,3 @@ pygmentCodeFences = true
     name = "Development"
     url = "https://gitlab.com/apparmor/"
     weight = 3
-
-[[menu.main]]
-    name = "Twitter"
-    pre = "<i class='fa fa-twitter' aria-hidden='true'></i>"
-    url = "https://twitter.com/ApparmorProject"
-    weight = 4
