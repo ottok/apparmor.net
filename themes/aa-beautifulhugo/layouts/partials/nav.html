@@ -7,6 +7,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      {{ if isset .Site.Params "logo" }}
+        <a title="{{ .Site.Title }}" href="{{ "" | absLangURL }}">
+          <img class="navbar-icon" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" width="40" height="40">
+        </a>
+      {{ end }}
       <a class="navbar-brand" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
     </div>
 

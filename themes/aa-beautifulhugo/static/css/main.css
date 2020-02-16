@@ -123,6 +123,21 @@ img {
   color: #d85746;
 }
 
+.navbar-custom .navbar-icon {
+  opacity: 0;
+  float: left;
+  margin: -45px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+/* Reveal smaller icon in navibar when the big logo goes away */
+.navbar-custom.top-nav-short .navbar-icon {
+  opacity: 1;
+  margin: 5px;
+}
+
 .navbar-custom .navbar-brand-logo {
   padding-top: 0;
   -webkit-transition: padding .5s ease-in-out;
@@ -178,9 +193,10 @@ img {
   width: 100%;
   border-radius: 50%;
   display: block;
+  background: #F5F5F5;
 }
 
-.navbar-custom.top-nav-short .avatar-container{
+.navbar-custom.top-nav-short .avatar-container {
   opacity: 0;
 }
 
