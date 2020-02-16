@@ -1,5 +1,7 @@
 # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/pages/hugo:latest
+# Use 0.40.1 which is the same version as in Ubuntu 18.04, making it easier for Ubuntu/Debian
+# users to contribute without installing out-of-repos bleeding edge software.
+image: registry.gitlab.com/pages/hugo:0.40.1
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
