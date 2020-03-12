@@ -1,6 +1,6 @@
 ---
-title: AppArmor 2.13.3 released
-date: 2019-06-18
+title: AppArmor 2.13.4 released
+date: 2020-03-12
 ---
 
 AppArmor 2.13.4 is a maintenance release of the user space components
@@ -18,7 +18,7 @@ AppArmor 2.13.4 was released 2020-03-12.
 # Obtaining the Release
 These release notes cover all changes between 2.13.3 [2f9d9ea7e01a115b29858455d3b1b5c6a0bab75c](https://gitlab.com/apparmor/apparmor/-/commit2f9d9ea7e01a115b29858455d3b1b5c6a0bab75c) and 2.13.4 [df0ac742f7a1146181d8734d03334494f2015134](https://gitlab.com/apparmor/apparmor/-/commitdf0ac742f7a1146181d8734d03334494f2015134) on the [apparmor-2.13 branch](https://gitlab.com/apparmor/apparmor/tree/apparmor-2.13).
 
-###Tarball
+### Tarball
 -   <https://launchpad.net/apparmor/2.13/2.13.4/+download/apparmor-2.13.4.tar.gz>
 -   sha256sum: 90bf86c07ffbe2c22be46d75c7345fad12d5911653c59750a37d59c63ad5d10e
 -   signature: <https://launchpad.net/apparmor/2.13/2.13.4/+download/apparmor-2.13.4.tar.gz.asc>
@@ -98,35 +98,3 @@ There is a semantic change in the 4.8 kernel (commit
 enforcement. Specifically it affects when the m permission bit is
 checked for elf binary executables. Policy and tests within apparmor
 2.12 and later have been updated to support running on pre 4.8 and 4.8+ kernels.
-
-
-# References
-
-[AABUG41: https://gitlab.com/apparmor/apparmor/issues/41](https://gitlab.com/apparmor/apparmor/issues/41)
-[boo1153162: https://bugzilla.opensuse.org/show_bug.cgi?id=1153162](https://bugzilla.opensuse.org/show_bug.cgi?id=1153162)
-[dbug935058: https://bugs.debian.org/935058](https://bugs.debian.org/935058)
-[lp1848227: https://bugs.launchpad.net/bugs/1848227](https://bugs.launchpad.net/bugs/1848227)
-[LP1848919: https://bugs.launchpad.net/bugs/1848919](https://bugs.launchpad.net/bugs/1848919)
-[LP1792027: https://bugs.launchpad.net/bugs/1792027](https://bugs.launchpad.net/bugs/1792027)
-[LP1834192: https://bugs.launchpad.net/bugs/1834192](https://bugs.launchpad.net/bugs/1834192)
-[LP1838991: https://bugs.launchpad.net/bugs/1838991](https://bugs.launchpad.net/bugs/1838991)
-[MR111: https://gitlab.com/apparmor/apparmor/merge_requests/111](https://gitlab.com/apparmor/apparmor/merge_requests/111)
-[MR395: https://gitlab.com/apparmor/apparmor/merge_requests/395](https://gitlab.com/apparmor/apparmor/merge_requests/395)
-[MR396: https://gitlab.com/apparmor/apparmor/merge_requests/396](https://gitlab.com/apparmor/apparmor/merge_requests/396)
-[MR397: https://gitlab.com/apparmor/apparmor/merge_requests/397](https://gitlab.com/apparmor/apparmor/merge_requests/397)
-[MR406: https://gitlab.com/apparmor/apparmor/merge_requests/406](https://gitlab.com/apparmor/apparmor/merge_requests/406)
-[MR410: https://gitlab.com/apparmor/apparmor/merge_requests/410](https://gitlab.com/apparmor/apparmor/merge_requests/410)
-[MR415: https://gitlab.com/apparmor/apparmor/merge_requests/415](https://gitlab.com/apparmor/apparmor/merge_requests/415)
-[MR419: https://gitlab.com/apparmor/apparmor/merge_requests/419](https://gitlab.com/apparmor/apparmor/merge_requests/419)
-[MR420: https://gitlab.com/apparmor/apparmor/merge_requests/420](https://gitlab.com/apparmor/apparmor/merge_requests/420)
-[MR421: https://gitlab.com/apparmor/apparmor/merge_requests/421](https://gitlab.com/apparmor/apparmor/merge_requests/421)
-[MR425: https://gitlab.com/apparmor/apparmor/merge_requests/425](https://gitlab.com/apparmor/apparmor/merge_requests/425)
-[MR426: https://gitlab.com/apparmor/apparmor/merge_requests/426](https://gitlab.com/apparmor/apparmor/merge_requests/426)
-[MR427: https://gitlab.com/apparmor/apparmor/merge_requests/427](https://gitlab.com/apparmor/apparmor/merge_requests/427)
-[MR429: https://gitlab.com/apparmor/apparmor/merge_requests/429](https://gitlab.com/apparmor/apparmor/merge_requests/429)
-[MR430: https://gitlab.com/apparmor/apparmor/merge_requests/430](https://gitlab.com/apparmor/apparmor/merge_requests/430)
-[MR436: https://gitlab.com/apparmor/apparmor/merge_requests/436](https://gitlab.com/apparmor/apparmor/merge_requests/436)
-[MR442: https://gitlab.com/apparmor/apparmor/merge_requests/442](https://gitlab.com/apparmor/apparmor/merge_requests/442)
-[MR443: https://gitlab.com/apparmor/apparmor/merge_requests/443](https://gitlab.com/apparmor/apparmor/merge_requests/443)
-[MR444: https://gitlab.com/apparmor/apparmor/merge_requests/444](https://gitlab.com/apparmor/apparmor/merge_requests/444)
-[MR445: https://gitlab.com/apparmor/apparmor/merge_requests/445](https://gitlab.com/apparmor/apparmor/merge_requests/445)
