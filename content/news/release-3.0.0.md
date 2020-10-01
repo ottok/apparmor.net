@@ -1,6 +1,7 @@
-AppArmor 3.0 was released 2020-10-01.
-
-# Introduction
+---
+title: AppArmor 3.0 released
+date: 2020-10-01
+---
 
 AppArmor 3.0 is a major new release of the AppArmor user space that makes an important change to policy development and support. Its focus is transitioning policy to the new features abi and as such other new features have been limited.
 
