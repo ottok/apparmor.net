@@ -1,1 +1,6 @@
-wiki.apparmor.net https://gitlab.com/apparmor/apparmor/-/wikis/home 302
+http://wiki.apparmor.net https://gitlab.com/apparmor/apparmor/-/wikis/home 301
+https://wiki.apparmor.net https://gitlab.com/apparmor/apparmor/-/wikis/home 301
+http://wiki.apparmor.net/index.php/Main_Page https://gitlab.com/apparmor/apparmor/-/wikis/home 301
+https://wiki.apparmor.net/index.php/Main_Page https://gitlab.com/apparmor/apparmor/-/wikis/home 301
+http://wiki.apparmor.net/index.php/* https://gitlab.com/apparmor/apparmor/-/wikis/:splat 301
+https://wiki.apparmor.net/index.php/* https://gitlab.com/apparmor/apparmor/-/wikis/:splat 301
