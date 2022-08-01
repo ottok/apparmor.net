@@ -1,6 +1,6 @@
 ---
-title: AppArmor 3.0.5 released
-date: 2022-07-25
+title: AppArmor 3.0.6 released
+date: 2022-08-01
 ---
 
 AppArmor 3.0.6 fixes a couple errors discovered in AppArmor 3.0.5 after release. It is a maintenance release of the user space components of the AppArmor security project. The kernel portion of the project is maintained and pushed separately.
